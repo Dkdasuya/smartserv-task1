@@ -13,6 +13,7 @@ function showData(){
     const table = document.querySelector('.table');
     for(let i=0;i<arrayProduct.length;i++){
         table.append(createCard(arrayProduct[i]));
+        // Hi am Dheeraj
     }
 }
 
